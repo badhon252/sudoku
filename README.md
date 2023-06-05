@@ -3,6 +3,7 @@
 Creating a Sudoku game using Next.js with TypeScript, Prisma, and Tailwind CSS can be a great project idea. This documentation will guide you through the wise steps to create it.
 
 ## Table of Contents
+
 - [Sudoku Game Project Documentation](#sudoku-game-project-documentation)
   - [Table of Contents](#table-of-contents)
   - [Project Setup](#project-setup)
@@ -44,17 +45,20 @@ Creating a Sudoku game using Next.js with TypeScript, Prisma, and Tailwind CSS c
 Start by setting up a new Next.js project with TypeScript support. You can use the following commands:
 
 ### Create a new Next.js project<a name="create-nextjs-project"></a>
+
 ```shell
 npx create-next-app my-sudoku-game
 ```
 
 ### Install TypeScript support<a name="install-typescript-support"></a>
+
 ```shell
 cd my-sudoku-game
 touch tsconfig.json
 ```
 
 Add the following content to `tsconfig.json`:
+
 ```json
 {
   "compilerOptions": {
@@ -80,6 +84,7 @@ Add the following content to `tsconfig.json`:
 ```
 
 ### Install Prisma<a name="install-prisma"></a>
+
 ```shell
 npm install prisma --save-dev
 ```
